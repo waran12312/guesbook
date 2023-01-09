@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
+    
 <body>
     <?php
-    $name = $_POST["name"];
-    $age = $_POST["age"];
+    $name = $_GET["name"];
+    $age = $_GET["age"];
 
     echo "Name:" .$name."<br>";
     echo "Age:" .$age."<br>";  
